@@ -9,6 +9,17 @@ company description, full service catalogue, contact details, service area and
 photographic archive — and presents it as a contemporary, bilingual
 architectural portfolio.
 
+## Live
+
+| | |
+| --- | --- |
+| Site | <https://reformation-marbella-redesign.vercel.app> |
+| Repository | <https://github.com/Danizarg/reformation-marbella-redesign> |
+
+Pushes to `master` deploy to production automatically. `vercel.json` pins the
+Next.js preset: without it Vercel treats the repository as a static site and
+serves `NOT_FOUND` on every path.
+
 ## Stack
 
 | Concern | Choice |
